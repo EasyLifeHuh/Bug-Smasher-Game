@@ -1,0 +1,87 @@
+body {
+background: #6b6969;  
+
+}
+canvas{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 2em;
+}
+#wrapper {
+  width: left;
+  height: auto;
+}
+#gameCanvas {
+  width: 900px;
+  float: left;
+
+}
+#bugSmasherData {
+  width: 25%;
+  text-align: center;
+  height: 500px;
+  float: right;
+ 
+ 
+}
+#scoreDisplay{
+  font-size: 2em;
+}
+
+/*start of hr*/
+hr {
+
+}
+hr:before {
+ 
+}
+/*End of hr*/
+/*start of button css*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #211d1c;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 18px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button:hover {
+  background-color: #6b6969;
+  color: #FFFFFF;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of button*/
+    
